@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF5CF3921B337C400DB271F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5CF3821B337C400DB271F /* AppDelegate.swift */; };
+		FFF5CF3B21B337C400DB271F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5CF3A21B337C400DB271F /* ViewController.swift */; };
+		FFF5CF3E21B337C400DB271F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF5CF3C21B337C400DB271F /* Main.storyboard */; };
+		FFF5CF4021B337C600DB271F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF5CF3F21B337C600DB271F /* Assets.xcassets */; };
+		FFF5CF4321B337C600DB271F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF5CF4121B337C600DB271F /* LaunchScreen.storyboard */; };
+		FFF5CF4E21B337C600DB271F /* Leafs_Raps_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5CF4D21B337C600DB271F /* Leafs_Raps_ScheduleTests.swift */; };
+		FFF5CF5921B337C600DB271F /* Leafs_Raps_ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5CF5821B337C600DB271F /* Leafs_Raps_ScheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF5CF4A21B337C600DB271F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF5CF2D21B337C400DB271F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF5CF3421B337C400DB271F;
+			remoteInfo = "Leafs Raps Schedule";
+		};
+		FFF5CF5521B337C600DB271F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF5CF2D21B337C400DB271F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF5CF3421B337C400DB271F;
+			remoteInfo = "Leafs Raps Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF5CF3521B337C400DB271F /* Leafs Raps Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leafs Raps Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF5CF3821B337C400DB271F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF5CF3A21B337C400DB271F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF5CF3D21B337C400DB271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF5CF3F21B337C600DB271F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF5CF4221B337C600DB271F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF5CF4421B337C600DB271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF5CF4921B337C600DB271F /* Leafs Raps ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leafs Raps ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF5CF4D21B337C600DB271F /* Leafs_Raps_ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leafs_Raps_ScheduleTests.swift; sourceTree = "<group>"; };
+		FFF5CF4F21B337C600DB271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF5CF5421B337C600DB271F /* Leafs Raps ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leafs Raps ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF5CF5821B337C600DB271F /* Leafs_Raps_ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leafs_Raps_ScheduleUITests.swift; sourceTree = "<group>"; };
+		FFF5CF5A21B337C600DB271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF5CF3221B337C400DB271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5CF4621B337C600DB271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5CF5121B337C600DB271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF5CF2C21B337C400DB271F = {
+			isa = PBXGroup;
+			children = (
+				FFF5CF3721B337C400DB271F /* Leafs Raps Schedule */,
+				FFF5CF4C21B337C600DB271F /* Leafs Raps ScheduleTests */,
+				FFF5CF5721B337C600DB271F /* Leafs Raps ScheduleUITests */,
+				FFF5CF3621B337C400DB271F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF5CF3621B337C400DB271F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5CF3521B337C400DB271F /* Leafs Raps Schedule.app */,
+				FFF5CF4921B337C600DB271F /* Leafs Raps ScheduleTests.xctest */,
+				FFF5CF5421B337C600DB271F /* Leafs Raps ScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF5CF3721B337C400DB271F /* Leafs Raps Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5CF3821B337C400DB271F /* AppDelegate.swift */,
+				FFF5CF3A21B337C400DB271F /* ViewController.swift */,
+				FFF5CF3C21B337C400DB271F /* Main.storyboard */,
+				FFF5CF3F21B337C600DB271F /* Assets.xcassets */,
+				FFF5CF4121B337C600DB271F /* LaunchScreen.storyboard */,
+				FFF5CF4421B337C600DB271F /* Info.plist */,
+			);
+			path = "Leafs Raps Schedule";
+			sourceTree = "<group>";
+		};
+		FFF5CF4C21B337C600DB271F /* Leafs Raps ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5CF4D21B337C600DB271F /* Leafs_Raps_ScheduleTests.swift */,
+				FFF5CF4F21B337C600DB271F /* Info.plist */,
+			);
+			path = "Leafs Raps ScheduleTests";
+			sourceTree = "<group>";
+		};
+		FFF5CF5721B337C600DB271F /* Leafs Raps ScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5CF5821B337C600DB271F /* Leafs_Raps_ScheduleUITests.swift */,
+				FFF5CF5A21B337C600DB271F /* Info.plist */,
+			);
+			path = "Leafs Raps ScheduleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF5CF3421B337C400DB271F /* Leafs Raps Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF5CF5D21B337C600DB271F /* Build configuration list for PBXNativeTarget "Leafs Raps Schedule" */;
+			buildPhases = (
+				FFF5CF3121B337C400DB271F /* Sources */,
+				FFF5CF3221B337C400DB271F /* Frameworks */,
+				FFF5CF3321B337C400DB271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leafs Raps Schedule";
+			productName = "Leafs Raps Schedule";
+			productReference = FFF5CF3521B337C400DB271F /* Leafs Raps Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF5CF4821B337C600DB271F /* Leafs Raps ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF5CF6021B337C600DB271F /* Build configuration list for PBXNativeTarget "Leafs Raps ScheduleTests" */;
+			buildPhases = (
+				FFF5CF4521B337C600DB271F /* Sources */,
+				FFF5CF4621B337C600DB271F /* Frameworks */,
+				FFF5CF4721B337C600DB271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF5CF4B21B337C600DB271F /* PBXTargetDependency */,
+			);
+			name = "Leafs Raps ScheduleTests";
+			productName = "Leafs Raps ScheduleTests";
+			productReference = FFF5CF4921B337C600DB271F /* Leafs Raps ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF5CF5321B337C600DB271F /* Leafs Raps ScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF5CF6321B337C600DB271F /* Build configuration list for PBXNativeTarget "Leafs Raps ScheduleUITests" */;
+			buildPhases = (
+				FFF5CF5021B337C600DB271F /* Sources */,
+				FFF5CF5121B337C600DB271F /* Frameworks */,
+				FFF5CF5221B337C600DB271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF5CF5621B337C600DB271F /* PBXTargetDependency */,
+			);
+			name = "Leafs Raps ScheduleUITests";
+			productName = "Leafs Raps ScheduleUITests";
+			productReference = FFF5CF5421B337C600DB271F /* Leafs Raps ScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF5CF2D21B337C400DB271F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Eric Backman";
+				TargetAttributes = {
+					FFF5CF3421B337C400DB271F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FFF5CF4821B337C600DB271F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FFF5CF3421B337C400DB271F;
+					};
+					FFF5CF5321B337C600DB271F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FFF5CF3421B337C400DB271F;
+					};
+				};
+			};
+			buildConfigurationList = FFF5CF3021B337C400DB271F /* Build configuration list for PBXProject "Leafs Raps Schedule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF5CF2C21B337C400DB271F;
+			productRefGroup = FFF5CF3621B337C400DB271F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF5CF3421B337C400DB271F /* Leafs Raps Schedule */,
+				FFF5CF4821B337C600DB271F /* Leafs Raps ScheduleTests */,
+				FFF5CF5321B337C600DB271F /* Leafs Raps ScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF5CF3321B337C400DB271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF5CF4321B337C600DB271F /* LaunchScreen.storyboard in Resources */,
+				FFF5CF4021B337C600DB271F /* Assets.xcassets in Resources */,
+				FFF5CF3E21B337C400DB271F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5CF4721B337C600DB271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5CF5221B337C600DB271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF5CF3121B337C400DB271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF5CF3B21B337C400DB271F /* ViewController.swift in Sources */,
+				FFF5CF3921B337C400DB271F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5CF4521B337C600DB271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF5CF4E21B337C600DB271F /* Leafs_Raps_ScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5CF5021B337C600DB271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF5CF5921B337C600DB271F /* Leafs_Raps_ScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF5CF4B21B337C600DB271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF5CF3421B337C400DB271F /* Leafs Raps Schedule */;
+			targetProxy = FFF5CF4A21B337C600DB271F /* PBXContainerItemProxy */;
+		};
+		FFF5CF5621B337C600DB271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF5CF3421B337C400DB271F /* Leafs Raps Schedule */;
+			targetProxy = FFF5CF5521B337C600DB271F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF5CF3C21B337C400DB271F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF5CF3D21B337C400DB271F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF5CF4121B337C600DB271F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF5CF4221B337C600DB271F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF5CF5B21B337C600DB271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF5CF5C21B337C600DB271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF5CF5E21B337C600DB271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3459B3S8X7;
+				INFOPLIST_FILE = "Leafs Raps Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Leafs-Raps-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF5CF5F21B337C600DB271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3459B3S8X7;
+				INFOPLIST_FILE = "Leafs Raps Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Leafs-Raps-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFF5CF6121B337C600DB271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3459B3S8X7;
+				INFOPLIST_FILE = "Leafs Raps ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Leafs-Raps-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leafs Raps Schedule.app/Leafs Raps Schedule";
+			};
+			name = Debug;
+		};
+		FFF5CF6221B337C600DB271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3459B3S8X7;
+				INFOPLIST_FILE = "Leafs Raps ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Leafs-Raps-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leafs Raps Schedule.app/Leafs Raps Schedule";
+			};
+			name = Release;
+		};
+		FFF5CF6421B337C600DB271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3459B3S8X7;
+				INFOPLIST_FILE = "Leafs Raps ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Leafs-Raps-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Leafs Raps Schedule";
+			};
+			name = Debug;
+		};
+		FFF5CF6521B337C600DB271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3459B3S8X7;
+				INFOPLIST_FILE = "Leafs Raps ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Leafs-Raps-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Leafs Raps Schedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF5CF3021B337C400DB271F /* Build configuration list for PBXProject "Leafs Raps Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5CF5B21B337C600DB271F /* Debug */,
+				FFF5CF5C21B337C600DB271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF5CF5D21B337C600DB271F /* Build configuration list for PBXNativeTarget "Leafs Raps Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5CF5E21B337C600DB271F /* Debug */,
+				FFF5CF5F21B337C600DB271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF5CF6021B337C600DB271F /* Build configuration list for PBXNativeTarget "Leafs Raps ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5CF6121B337C600DB271F /* Debug */,
+				FFF5CF6221B337C600DB271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF5CF6321B337C600DB271F /* Build configuration list for PBXNativeTarget "Leafs Raps ScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5CF6421B337C600DB271F /* Debug */,
+				FFF5CF6521B337C600DB271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF5CF2D21B337C400DB271F /* Project object */;
+}
